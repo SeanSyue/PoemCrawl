@@ -1,0 +1,18 @@
+set LINE_CHANNEL_SECRET=35d36d1e7ff70cc8278ca4b6d4c4e5cc
+
+set LINE_CHANNEL_ACCESS_TOKEN=rLuLh5bpb4LU5qukmt+qRiYQBBNGjG5ODvnEv648XL3GDXTznH/sS1ScjNZhgiaciZvVL+1jGq2TEIn4ind1PoexeVIngThf92/t/gFxc844XVjtFbVdqMnuLGq9Fx3RIsfY1J9F+oJnPcso444XlAdB04t89/1O/w1cDnyilFU=
+
+pip install -r requirements.txt
+
+python app.py
+
+
+set FLASK_APP=app.py
+set FLASK_DEBUG=1
+flask run
+
+
+
+http://127.0.0.1:5000/
+
+cd line-bot-sdk-python\examples\flask-kitchensink
